@@ -3,6 +3,10 @@ body {
   text-shadow: 0 0 0.4vw currentColor;
 }
 
+a {
+  color: inherit;
+}
+
 .wrapper {
   position: relative;
   overflow: hidden;
@@ -1852,15 +1856,15 @@ body {
   opacity: 0.2;
 }
 
-.alkali-metal {
+.behavior {
   color: #ecbe59;
 }
 
-.alkaline-earth-metal {
+.policy {
   color: #dee955;
 }
 
-.lanthanoid {
+.container {
   color: #ec77a3;
 }
 
@@ -1868,7 +1872,7 @@ body {
   color: #c686cc;
 }
 
-.transition-metal {
+.sast {
   color: #fd8572;
 }
 
@@ -2097,21 +2101,21 @@ body {
   opacity: 1 !important;
 }
 
-#alkali-metals:checked ~ .periodic-table .element:not(.alkali-metal),
-#alkaline-earth-metals:checked ~ .periodic-table .element:not(.alkaline-earth-metal),
-#lanthanoids:checked ~ .periodic-table .element:not(.lanthanoid),
+#behaviors:checked ~ .periodic-table .element:not(.behavior),
+#policies:checked ~ .periodic-table .element:not(.policy),
+#containers:checked ~ .periodic-table .element:not(.container),
 #actinoids:checked ~ .periodic-table .element:not(.actinoid),
-#transition-metals:checked ~ .periodic-table .element:not(.transition-metal),
+#sasts:checked ~ .periodic-table .element:not(.sast),
 #post-transition-metals:checked ~ .periodic-table .element:not(.post-transition-metal),
 #metalloids:checked ~ .periodic-table .element:not(.metalloid),
 #other-nonmetals:checked ~ .periodic-table .element:not(.other-nonmetal),
 #noble-gasses:checked ~ .periodic-table .element:not(.noble-gas),
 #unknown:checked ~ .periodic-table .element:not(.unknown),
-#alkali-metals:checked ~ .periodic-table .placeholder,
-#alkaline-earth-metals:checked ~ .periodic-table .placeholder,
-#lanthanoids:checked ~ .periodic-table .placeholder:not(.lanthanoid),
+#behaviors:checked ~ .periodic-table .placeholder,
+#policies:checked ~ .periodic-table .placeholder,
+#containers:checked ~ .periodic-table .placeholder:not(.container),
 #actinoids:checked ~ .periodic-table .placeholder:not(.actinoid),
-#transition-metals:checked ~ .periodic-table .placeholder,
+#sasts:checked ~ .periodic-table .placeholder,
 #post-transition-metals:checked ~ .periodic-table .placeholder,
 #metalloids:checked ~ .periodic-table .placeholder,
 #other-nonmetals:checked ~ .periodic-table .placeholder,
@@ -2121,11 +2125,11 @@ body {
   pointer-events: none;
 }
 
-#alkali-metals:checked ~ .periodic-table .key label:not(.alkali-metal),
-#alkaline-earth-metals:checked ~ .periodic-table .key label:not(.alkaline-earth-metal),
-#lanthanoids:checked ~ .periodic-table .key label:not(.lanthanoid),
+#behaviors:checked ~ .periodic-table .key label:not(.behavior),
+#policies:checked ~ .periodic-table .key label:not(.policy),
+#containers:checked ~ .periodic-table .key label:not(.container),
 #actinoids:checked ~ .periodic-table .key label:not(.actinoid),
-#transition-metals:checked ~ .periodic-table .key label:not(.transition-metal),
+#sasts:checked ~ .periodic-table .key label:not(.sast),
 #post-transition-metals:checked ~ .periodic-table .key label:not(.post-transition-metal),
 #metalloids:checked ~ .periodic-table .key label:not(.metalloid),
 #other-nonmetals:checked ~ .periodic-table .key label:not(.other-nonmetal),
