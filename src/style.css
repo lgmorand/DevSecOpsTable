@@ -1868,7 +1868,7 @@ a {
   color: #ec77a3;
 }
 
-.actinoid {
+.dast {
   color: #c686cc;
 }
 
@@ -1876,24 +1876,28 @@ a {
   color: #fd8572;
 }
 
-.post-transition-metal {
+.iast {
   color: #4cddf3;
 }
 
-.metalloid {
+.hardening {
   color: #3aefb6;
 }
 
-.other-nonmetal {
+.sca {
   color: #52ee61;
 }
 
-.noble-gas {
+.rasp {
   color: #759fff;
 }
 
-.unknown {
+.vul {
   color: #cccccc;
+}
+
+.bounty {
+  color: #81296e;
 }
 
 .r1 {
@@ -2104,23 +2108,25 @@ a {
 #behaviors:checked ~ .periodic-table .element:not(.behavior),
 #policies:checked ~ .periodic-table .element:not(.policy),
 #containers:checked ~ .periodic-table .element:not(.container),
-#actinoids:checked ~ .periodic-table .element:not(.actinoid),
+#dasts:checked ~ .periodic-table .element:not(.dast),
 #sasts:checked ~ .periodic-table .element:not(.sast),
-#post-transition-metals:checked ~ .periodic-table .element:not(.post-transition-metal),
-#metalloids:checked ~ .periodic-table .element:not(.metalloid),
-#other-nonmetals:checked ~ .periodic-table .element:not(.other-nonmetal),
-#noble-gasses:checked ~ .periodic-table .element:not(.noble-gas),
-#unknown:checked ~ .periodic-table .element:not(.unknown),
+#iasts:checked ~ .periodic-table .element:not(.iast),
+#hardenings:checked ~ .periodic-table .element:not(.hardening),
+#scas:checked ~ .periodic-table .element:not(.sca),
+#rasps:checked ~ .periodic-table .element:not(.rasp),
+#vuls:checked ~ .periodic-table .element:not(.vul),
+#bounties:checked ~ .periodic-table .element:not(.bounty),
 #behaviors:checked ~ .periodic-table .placeholder,
 #policies:checked ~ .periodic-table .placeholder,
 #containers:checked ~ .periodic-table .placeholder:not(.container),
-#actinoids:checked ~ .periodic-table .placeholder:not(.actinoid),
+#dasts:checked ~ .periodic-table .placeholder:not(.dast),
 #sasts:checked ~ .periodic-table .placeholder,
-#post-transition-metals:checked ~ .periodic-table .placeholder,
-#metalloids:checked ~ .periodic-table .placeholder,
-#other-nonmetals:checked ~ .periodic-table .placeholder,
-#noble-gasses:checked ~ .periodic-table .placeholder,
-#unknown:checked ~ .periodic-table .placeholder {
+#iasts:checked ~ .periodic-table .placeholder,
+#hardenings:checked ~ .periodic-table .placeholder,
+#scas:checked ~ .periodic-table .placeholder,
+#rasps:checked ~ .periodic-table .placeholder,
+#bounties:checked ~ .periodic-table .placeholder,
+#vuls:checked ~ .periodic-table .placeholder {
   opacity: 0.15;
   pointer-events: none;
 }
@@ -2128,13 +2134,14 @@ a {
 #behaviors:checked ~ .periodic-table .key label:not(.behavior),
 #policies:checked ~ .periodic-table .key label:not(.policy),
 #containers:checked ~ .periodic-table .key label:not(.container),
-#actinoids:checked ~ .periodic-table .key label:not(.actinoid),
+#dasts:checked ~ .periodic-table .key label:not(.dast),
 #sasts:checked ~ .periodic-table .key label:not(.sast),
-#post-transition-metals:checked ~ .periodic-table .key label:not(.post-transition-metal),
-#metalloids:checked ~ .periodic-table .key label:not(.metalloid),
-#other-nonmetals:checked ~ .periodic-table .key label:not(.other-nonmetal),
-#noble-gasses:checked ~ .periodic-table .key label:not(.noble-gas),
-#unknown:checked ~ .periodic-table .key label:not(.unknown) {
+#iasts:checked ~ .periodic-table .key label:not(.iast),
+#hardenings:checked ~ .periodic-table .key label:not(.hardening),
+#scas:checked ~ .periodic-table .key label:not(.sca),
+#rasps:checked ~ .periodic-table .key label:not(.rasp),
+#bounties:checked ~ .periodic-table .key label:not(.bounty),
+#vuls:checked ~ .periodic-table .key label:not(.vul) {
   opacity: 0.65;
 }
 
