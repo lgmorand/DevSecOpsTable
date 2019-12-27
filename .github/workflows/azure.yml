@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Azure Static Website Deploy
       uses: feeloor/azure-static-website-deploy@v0.1.0
-      with:
+      env:
         # The name of the directory you want to upload
         SOURCE_DIR: "."
         # Your Azure Client ID
