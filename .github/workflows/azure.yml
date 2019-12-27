@@ -19,7 +19,7 @@ jobs:
         # Your Azure TENANT ID
         AZURE_TENANT_ID: "72f988bf-86f1-41af-91ab-2d7cd011db47"
         # Your Azure Secret
-        AZURE_SECRET: ${{secrets.SECRET_ID}}
+        AZURE_SECRET: "${{secrets.SECRET_ID}}"
         # Your Azure Subscription ID
         AZURE_SUBSCRIPTION_ID: "6c9dc160-dca4-47cb-9e76-ed16a4b4edb1"
         # Your Azure Storage Account Name
