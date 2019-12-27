@@ -1,21 +1,7 @@
-# This workflow will build and push a node.js application to an Azure Web App on every push to the master branch.
-#
-# To configure this workflow:
-#
-# 1. Set up a secret in your repository named AZURE_WEBAPP_PUBLISH_PROFILE with the value of your Azure publish profile.
-#
-# 2. Change the values for the AZURE_WEBAPP_NAME, AZURE_WEBAPP_PACKAGE_PATH and NODE_VERSION environment variables  (below).
-#
-# For more information on GitHub Actions for Azure, refer to https://github.com/Azure/Actions
-# For more samples to get started with GitHub Action workflows to deploy to Azure, refer to https://github.com/Azure/actions-workflow-samples
 on:
   push:
     branches:
       - master
-
-env:
-  AZURE_STORAGE_NAME: devsecopstable    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '$web'      # set this to the path to your web app project, defaults to the repository root
 
 jobs:
   build-and-deploy:
@@ -33,11 +19,11 @@ jobs:
         # Your Azure TENANT ID
         AZURE_TENANT_ID: 72f988bf-86f1-41af-91ab-2d7cd011db47
         # Your Azure Secret
-        AZURE_SECRET: 7ccqqYg@YPJu?m0VF0ahG9qjuK_Tw_2B
+        AZURE_SECRET: ${{secret.SECRET_ID}}
         # Your Azure Subscription ID
         AZURE_SUBSCRIPTION_ID: 6c9dc160-dca4-47cb-9e76-ed16a4b4edb1
         # Your Azure Storage Account Name
-        AZURE_STORAGE_ACCOUNT_NAME: $AZURE_STORAGE_NAME
+        AZURE_STORAGE_ACCOUNT_NAME: devsecopstable
         # The index document that you specify when you enable static website hosting, appears when users open the site and dont specify a specific file.
         AZURE_INDEX_DOCUMENT_NAME:  index.html
     
