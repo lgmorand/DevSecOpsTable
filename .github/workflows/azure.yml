@@ -21,7 +21,7 @@ jobs:
         # Your Azure Secret
         AZURE_SECRET: "${{secrets.SECRET_ID}}"
         # Your Azure Subscription ID
-        AZURE_SUBSCRIPTION_ID: "6c9dc160-dca4-47cb-9e76-ed16a4b4edb1"
+        AZURE_SUBSCRIPTION_ID: "${{secrets.SUBSCRIPTION_ID}}"
         # Your Azure Storage Account Name
         AZURE_STORAGE_ACCOUNT_NAME: "devsecopstable"
         # The index document that you specify when you enable static website hosting, appears when users open the site and dont specify a specific file.
