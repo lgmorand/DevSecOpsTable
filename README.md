@@ -8,6 +8,8 @@ Live result can be accessed here: ==> [https://aka.ms/devsecops-table](https://a
 
 ![Screenshot](./demo.png "Result screenshot")
 
+an alternative list is the [Ultimate DevSecops List](https://github.com/sottlmarek/DevSecOps?tab=readme-ov-file)
+
 ## Author
 
 Louis-Guillaume MORAND (http://github.com/lgmorand)
