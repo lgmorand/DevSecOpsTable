@@ -34,7 +34,7 @@ jobs:
         # Your Azure Subscription ID
         AZURE_SUBSCRIPTION_ID: "${{vars.SUBSCRIPTION_ID}}"
         # Your Azure Storage Account Name
-        AZURE_STORAGE_ACCOUNT_NAME: "${{secrets.STORAGE_NAME}}"
+        AZURE_STORAGE_ACCOUNT_NAME: "${{vars.STORAGE_NAME}}"
         # The index document that you specify when you enable static website hosting, appears when users open the site and dont specify a specific file.
         AZURE_INDEX_DOCUMENT_NAME:  "index.html"
     
