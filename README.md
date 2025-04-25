@@ -4,7 +4,7 @@ Table of elements presenting the current DevSecOps tools of the market. It may n
 
 Live result can be accessed here: ==> [https://aka.ms/devsecops-table](https://aka.ms/devsecops-table) <==
 
-![.github/workflows/azure.yml](https://github.com/lgmorand/DevSecOpsTable/workflows/.github/workflows/azure.yml/badge.svg)
+[![Build](https://github.com/lgmorand/DevSecOpsTable/actions/workflows/azure.yml/badge.svg)](https://github.com/lgmorand/DevSecOpsTable/actions/workflows/azure.yml)
 
 ![Screenshot](./demo.png "Result screenshot")
 
